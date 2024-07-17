@@ -1,9 +1,4 @@
-# AssetKit-iOS-Pod
-
-[![CI Status](http://img.shields.io/travis/louieyune/AssetKit-iOS-Pod.svg?style=flat)](https://travis-ci.org/louieyune/AssetKit-iOS-Pod)
-[![Version](https://img.shields.io/cocoapods/v/AssetKit-iOS-Pod.svg?style=flat)](http://cocoapods.org/pods/AssetKit-iOS-Pod)
-[![License](https://img.shields.io/cocoapods/l/AssetKit-iOS-Pod.svg?style=flat)](http://cocoapods.org/pods/AssetKit-iOS-Pod)
-[![Platform](https://img.shields.io/cocoapods/p/AssetKit-iOS-Pod.svg?style=flat)](http://cocoapods.org/pods/AssetKit-iOS-Pod)
+# MM-AssetKit-iOS-Pod
 
 ## Example
 
