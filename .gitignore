@@ -18,7 +18,7 @@ profile
 DerivedData
 *.hmap
 *.ipa
-
+Example/Pods/Pods.xcodeproj
 # Bundler
 .bundle
 

@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "summary": "A short description of AssetKit-iOS-Pod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/louieyune/AssetKit-iOS-Pod",
+  "homepage": "https://github.com/MTS-LLC/MM-AssetKit-iOS-Pod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "louieyune": "lyuen@jibestream.com"
+    "mattWillis": "mewillis21@gmail.com"
   },
   "source": {
-    "git": "https://github.com/louieyune/AssetKit-iOS-Pod.git",
+    "git": "https://github.com/MTS-LLC/MM-AssetKit-iOS-Pod.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "AssetKit-iOS-Pod/Classes/**/*"
 }
