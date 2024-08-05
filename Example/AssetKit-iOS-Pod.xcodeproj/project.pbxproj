@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		278516625A926154B8616C4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		278516625A926154B8616C4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3E69A07A981E999C112FF90F /* Pods-AssetKit-iOS-Pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetKit-iOS-Pod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssetKit-iOS-Pod_Example/Pods-AssetKit-iOS-Pod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		48AA376C8ABBF9227CA04307 /* Pods-AssetKit-iOS-Pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetKit-iOS-Pod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssetKit-iOS-Pod_Example/Pods-AssetKit-iOS-Pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4F4120FB140F5A228A731434 /* Pods-AssetKit-iOS-Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetKit-iOS-Pod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AssetKit-iOS-Pod_Tests/Pods-AssetKit-iOS-Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800C8B395EEA770563A180C3 /* Pods_AssetKit_iOS_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssetKit_iOS_Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82043164FB9B28801A0CD99A /* AssetKit-iOS-Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "AssetKit-iOS-Pod.podspec"; path = "../AssetKit-iOS-Pod.podspec"; sourceTree = "<group>"; };
+		82043164FB9B28801A0CD99A /* AssetKit-iOS-Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "AssetKit-iOS-Pod.podspec"; path = "../AssetKit-iOS-Pod.podspec"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA67717BED41DCA02FA4E6FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DA67717BED41DCA02FA4E6FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E91CD2CD0D1938670DA40B42 /* Pods_AssetKit_iOS_Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssetKit_iOS_Pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F307F9EF003D4EDCC24ABD8E /* Pods-AssetKit-iOS-Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssetKit-iOS-Pod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AssetKit-iOS-Pod_Tests/Pods-AssetKit-iOS-Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -260,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -527,6 +528,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AssetKit-iOS-Pod/AssetKit-iOS-Pod-Prefix.pch";
 				INFOPLIST_FILE = "AssetKit-iOS-Pod/AssetKit-iOS-Pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +544,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AssetKit-iOS-Pod/AssetKit-iOS-Pod-Prefix.pch";
 				INFOPLIST_FILE = "AssetKit-iOS-Pod/AssetKit-iOS-Pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

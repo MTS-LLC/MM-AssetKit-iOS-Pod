@@ -6,7 +6,7 @@ s.version='2.1.0'
   s.description      = 'This CocoaPod provides the release version of the AssetKit for the MinuteMaps iOS SDK.'
 
   s.homepage         = 'http://www.jibestream.com/'
-  s.author           = { 'louie' => 'lyuen@jibestream.com' }
+  s.author           = { 'mattWillis' => 'matt.willis@minuteman-llc.com' }
   s.source           = { :git => 'https://github.com/MTS-LLC/MM-AssetKit-iOS-Pod.git', :tag => "#{s.version}" }
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
