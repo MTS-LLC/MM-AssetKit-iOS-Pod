@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'AssetKit-iOS-Pod_Example' do
+  pod 'JMapiOSSDK', :git => 'https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git'
   pod 'AssetKit-iOS-Pod', :path => '../'
 
   target 'AssetKit-iOS-Pod_Tests' do

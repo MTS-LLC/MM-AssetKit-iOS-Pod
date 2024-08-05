@@ -18,9 +18,10 @@ profile
 DerivedData
 *.hmap
 *.ipa
-Example/Pods/Pods.xcodeproj
 # Bundler
 .bundle
+
+
 
 Carthage
 # We recommend against adding the Pods directory to your .gitignore. However

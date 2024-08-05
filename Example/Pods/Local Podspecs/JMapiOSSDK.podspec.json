@@ -1,0 +1,22 @@
+{
+  "name": "JMapiOSSDK",
+  "version": "5.12.2",
+  "summary": "The MinuteMaps JMap 4.0 iOS SDK.",
+  "description": "This CocoaPod provides the release version for the Jibestream iOS SDK.",
+  "homepage": "http://www.minuteman-llc.com/",
+  "authors": {
+    "mattWillis": "matt.willis@minuteman-llc.com"
+  },
+  "source": {
+    "git": "https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git",
+    "tag": "5.12.2"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": "JMapiOSSDK4.0/Frameworks/*.xcframework"
+}

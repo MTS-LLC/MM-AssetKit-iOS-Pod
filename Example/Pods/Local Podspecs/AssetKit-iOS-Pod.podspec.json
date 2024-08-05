@@ -1,22 +1,27 @@
 {
   "name": "AssetKit-iOS-Pod",
-  "version": "0.1.0",
-  "summary": "A short description of AssetKit-iOS-Pod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/MTS-LLC/MM-AssetKit-iOS-Pod",
+  "version": "2.1.0",
+  "summary": "The AssetKit-iOS-Pod for the MinuteMaps iOS SDK.",
+  "description": "This CocoaPod provides the release version of the AssetKit for the MinuteMaps iOS SDK.",
+  "homepage": "http://www.minuteman-llc.com/",
+  "authors": {
+    "mattWillis": "matt.willis@minuteman-llc.com"
+  },
+  "source": {
+    "git": "https://github.com/MTS-LLC/MM-AssetKit-iOS-Pod.git",
+    "tag": "2.1.0"
+  },
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
-  "authors": {
-    "mattWillis": "mewillis21@gmail.com"
-  },
-  "source": {
-    "git": "https://github.com/MTS-LLC/MM-AssetKit-iOS-Pod.git",
-    "tag": "0.1.0"
-  },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "AssetKit-iOS-Pod/Classes/**/*"
+  "dependencies": {
+    "JMapiOSSDK": [
+
+    ]
+  },
+  "vendored_frameworks": "AssetKit-iOS-Pod/Frameworks/*.xcframework"
 }

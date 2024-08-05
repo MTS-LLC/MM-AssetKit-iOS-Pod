@@ -1,16 +1,27 @@
 PODS:
-  - AssetKit-iOS-Pod (0.1.0)
+  - AssetKit-iOS-Pod (2.1.0):
+    - JMapiOSSDK
+  - JMapiOSSDK (5.12.2)
 
 DEPENDENCIES:
   - AssetKit-iOS-Pod (from `../`)
+  - JMapiOSSDK (from `https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git`)
 
 EXTERNAL SOURCES:
   AssetKit-iOS-Pod:
-    :path: ../
+    :path: "../"
+  JMapiOSSDK:
+    :git: https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git
+
+CHECKOUT OPTIONS:
+  JMapiOSSDK:
+    :commit: 9df571bd49a6e2cb13ffd93820bb5ee20ab9055e
+    :git: https://github.com/MTS-LLC/JMap-iOS-SDK-Pod.git
 
 SPEC CHECKSUMS:
-  AssetKit-iOS-Pod: a8d97d5911e1d1ed1c9a0b9fdb7432a55812f730
+  AssetKit-iOS-Pod: 7beace0e8d5f47b7a556a682448dd36daed0bf2d
+  JMapiOSSDK: 8e784c4a2a3bf8021cbd2e7c6331874ffc452095
 
-PODFILE CHECKSUM: 21985fbeb29a4455d895f624397a8d4f46d8a556
+PODFILE CHECKSUM: edac008fee616aff48134bad397e800312a2c756
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.15.2
